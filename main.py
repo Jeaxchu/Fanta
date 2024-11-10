@@ -15,7 +15,7 @@ def get_anime_info(anime_id):
         response = requests.get(url)
         response.raise_for_status()  # Raise an error for bad responses
         data = response.json()  # Parse JSON response
-
+        
         # Extract relevant information
         episodes = data['data']['episodes']
         return episodes  # Return number of episodes
@@ -60,7 +60,7 @@ def main():
         for anime in tqdm(anime_list, leave=False):  # Nested progress bar for each category
             name, url = [part.strip() for part in anime.split("|")]
             series_id = url.split('/')[-1]  # Extracting series_id from URL
-
+            
             if status == "plan_to_watch":
                 episodes = 0  # Automatically set episodes to 0 for Plan to Watch
             elif status == "dropped":
@@ -84,7 +84,7 @@ def main():
                 "\t</anime>\n"
             )
             xml_data += entry_string
-
+            
             time.sleep(2)  # Delay of 2 seconds between requests
 
     xml_data += '</myanimelist>'
