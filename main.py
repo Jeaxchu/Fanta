@@ -1,3 +1,13 @@
+# 1) export your file as txt file from any anime stream website
+# 2) go to Shell/Terminal and paste 'pip install requests', and 'pip install tqdm' then click Enter
+# 3) copy and paste the export.txt on anime_data in main.py
+# 4) run it
+# 5) download the anime_data.xml if you're using replit, it will auto download if you're using vscode or any other downloaded software
+# 6) go to 'https://myanimelist.net/import.php'
+# 7) choose MyAnimeList Import
+# 8) import
+# Honorable Mention : Exam might cook me up, but I'm cooking ts
+
 import requests
 import time
 from tqdm import tqdm
