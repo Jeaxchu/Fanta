@@ -1,4 +1,4 @@
-# MyAnimeList Import
+# MyAnimeList Import [NERV]
 so basicaly this code is for importing your watchlist more accurately from any anime stream website to MAL(MyAnimeList).
 
 run this on Shell/Terminal :
