@@ -13,11 +13,11 @@ import time
 from tqdm import tqdm
 
 print("""
-   NN    NN  EEEEE  RRRRR   VVV       VVV
-   NN N  NN  E      RR  RR   VVV     VVV
-   NN  N NN  EEEE   RRRRR     VVV   VVV
-   NN   NNN  E      RR  RR     VVV VVV
-   NN    NN  EEEEE  RR   RR     VVVVV
+   NN    NN  IIIII  SSSSS   HHH       HHH
+   NN N  NN  I      SS  SS   HHH     HHH
+   NN  N NN  IIIII  SSSSS     HHH   HHH
+   NN   NNN  I      SS  SS     HHH HHH
+   NN    NN  IIIII  SS   SS     HHHHH
 
 """)
 
