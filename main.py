@@ -12,16 +12,7 @@ print("""
 """)
 
 anime_data = """
-# Completed
-Level 1 Demon Lord and One Room Hero | https://myanimelist.net/anime/51458
-# Plan to watch
-Akame ga Kill! | https://myanimelist.net/anime/22199
-# On-Hold
-Serial Experiments Lain | https://myanimelist.net/anime/339
-# Dropped
-Happy-Go-Lucky Days | https://myanimelist.net/anime/40747
-# Watching
-Dandadan | https://myanimelist.net/anime/57334
+Put your export text here
 """
 
 def get_anime_info(anime_id):
